@@ -20,6 +20,6 @@
   <width>256</width>
   <height>256</height>
   <frames>
-    <frame index="0">images\spr_corner_0.png</frame>
+    <frame index="0">images\spr_ul_corner_0.png</frame>
   </frames>
 </sprite>

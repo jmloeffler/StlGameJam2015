@@ -12,7 +12,10 @@
     <sprite>sprites\spr_dancing</sprite>
     <sprite>sprites\spr_bush</sprite>
     <sprite>sprites\spr_left_edge</sprite>
-    <sprite>sprites\spr_corner</sprite>
+    <sprite>sprites\spr_ll_corner</sprite>
+    <sprite>sprites\spr_ur_corner</sprite>
+    <sprite>sprites\spr_ul_corner</sprite>
+    <sprite>sprites\spr_lr_corner</sprite>
     <sprite>sprites\spr_bush_with_fruit</sprite>
     <sprite>sprites\spr_animated_bush</sprite>
     <sprite>sprites\spr_top_edge</sprite>
@@ -41,11 +44,15 @@
     <object>objects\obj_mate</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_bush</object>
-    <object>objects\obj_corner</object>
+    <object>objects\obj_ll_corner</object>
     <object>objects\obj_left_edge</object>
     <object>objects\obj_bush_with_fruit</object>
     <object>objects\obj_top_edge</object>
     <object>objects\obj_right_edge</object>
+    <object>objects\obj_lr_corner</object>
+    <object>objects\obj_ul_corner</object>
+    <object>objects\obj_bottom_edge</object>
+    <object>objects\obj_ur_corner</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_room1</room>
