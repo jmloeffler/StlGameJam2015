@@ -1,6 +1,7 @@
-///DrawHeroParts
+///UpdateHeroParts
 
-self.parts[Parts.backs].x = self.x;
-self.parts[Parts.backs].y = self.y;
-self.parts[Parts.backs].image_xscale = self.left_or_right;
-
+for (var i = 0; i < Parts.last; i++) {
+    self.parts[i].x = self.x;
+    self.parts[i].y = self.y;
+    self.parts[i].image_xscale = self.left_or_right;
+}

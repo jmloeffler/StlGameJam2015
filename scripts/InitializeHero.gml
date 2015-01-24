@@ -12,28 +12,34 @@ enum Parts {
     faces,
     feet,
     horns,
-    tails
+    tails,
+    last
 }
+
+
+global.partObjects[Parts.backs] = obj_back
+global.partObjects[Parts.bodies] = obj_back
+global.partObjects[Parts.ears] = obj_ear
+global.partObjects[Parts.faces] = obj_face
+global.partObjects[Parts.feet] = obj_feet
+global.partObjects[Parts.horns] = obj_horns
+global.partObjects[Parts.tails] = obj_tails
+
+global.parts[Parts.backs] = brown_back_plates
+global.parts[Parts.bodies] = spr_hero
+global.parts[Parts.ears] = noone
+global.parts[Parts.faces] = noone
+global.parts[Parts.feet] = noone
+global.parts[Parts.horns] = noone
+global.parts[Parts.tails] = noone
 
 self.left_or_right = 1;
 
-var back = instance_create(x, y, obj_back);
-//back.sprite_index = brown_dorsal_fin;
-self.parts[Parts.backs] = back;
-
-var ear = instance_create(x, y, obj_ear);
-self.parts[Parts.ears] = ear;
-
-var face = instance_create(x, y, obj_face);
-self.parts[Parts.faces] = face;
-
-var feet = instance_create(x, y, obj_feet);
-self.parts[Parts.feet] = feet;
-
-var horns = instance_create(x, y, obj_horns);
-self.parts[Parts.horns] = horns;
-
-var tails = instance_create(x, y, obj_tails);
-self.parts[Parts.tails] = tails;
+for (var i = 0; i < Parts.last; i++) {
+    var part = instance_create(x, y, global.partObjects[i])
+    (part).sprite_index = global.parts[i]
+    (part).depth = -1
+    self.parts[i] = part
+}
 
 self.Dancing = DancerState.Idle;

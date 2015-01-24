@@ -28,6 +28,7 @@
       <sprite>sprites\brown_back_plates</sprite>
       <sprite>sprites\brown_dorsal_fin</sprite>
     </sprites>
+    <sprite>sprites\hero_collision</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -37,7 +38,6 @@
     <script>scripts\scr_call_mate.gml</script>
     <script>scripts\InitializeHero.gml</script>
     <script>scripts\scr_on_dancing_done.gml</script>
-    <script>scripts\scr_cull_bushes.gml</script>
     <script>scripts\scr_spawn_food.gml</script>
     <script>scripts\MoveHero.gml</script>
     <script>scripts\scr_nudge_bush.gml</script>
