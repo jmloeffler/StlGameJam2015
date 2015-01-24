@@ -4,4 +4,3 @@ enum DancerState {
 }
 
 self.Dancing = DancerState.Idle;
-

@@ -112,8 +112,6 @@
             <string>//move camera
 view_xview = self.x - (view_wview / 2);
 view_yview = self.y - (view_hview / 2);
-
-
 </string>
           </argument>
         </arguments>
@@ -198,19 +196,23 @@ view_yview = self.y - (view_hview / 2);
     <event eventtype="8" enumb="64">
       <action>
         <libid>1</libid>
-        <id>703</id>
+        <id>501</id>
         <kind>0</kind>
         <userelative>-1</userelative>
         <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
+        <useapplyto>-1</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_draw_score</functionname>
+        <functionname>action_draw_sprite</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
+            <kind>5</kind>
+            <sprite>spr_full_heart</sprite>
+          </argument>
+          <argument>
             <kind>0</kind>
             <string>0</string>
           </argument>
@@ -218,9 +220,30 @@ view_yview = self.y - (view_hview / 2);
             <kind>0</kind>
             <string>0</string>
           </argument>
+          <argument>
+            <kind>0</kind>
+            <string>-1</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
           <argument>
             <kind>1</kind>
-            <string>Love: </string>
+            <string>draw_sprite_part(spr_empty_heart, 0, 0, 0, 128, 128-(128*(score*0.25)), 0, 0);
+</string>
           </argument>
         </arguments>
       </action>
