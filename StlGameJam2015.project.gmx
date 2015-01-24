@@ -11,8 +11,17 @@
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_dancing</sprite>
     <sprite>sprites\spr_bush</sprite>
+    <sprite>sprites\spr_left_edge</sprite>
+    <sprite>sprites\spr_corner</sprite>
+    <sprite>sprites\spr_bush_with_fruit</sprite>
+    <sprite>sprites\spr_animated_bush</sprite>
+    <sprite>sprites\spr_top_edge</sprite>
+    <sprite>sprites\spr_right_edge</sprite>
+    <sprite>sprites\spr_bottom_edge</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_call_mate.gml</script>
@@ -30,6 +39,11 @@
     <object>objects\obj_mate</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_bush</object>
+    <object>objects\obj_corner</object>
+    <object>objects\obj_left_edge</object>
+    <object>objects\obj_bush_with_fruit</object>
+    <object>objects\obj_top_edge</object>
+    <object>objects\obj_right_edge</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_room1</room>
