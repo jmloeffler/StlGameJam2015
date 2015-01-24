@@ -1,12 +1,16 @@
 self.nudge_state = nudge_states.idle;
 
 var response = random(1);
-if(response > 0.5) {
-    var hero = instance_find(obj_hero,0);
+var hero = instance_find(obj_hero,0);
+
+if(response > 0.6) {
     hero.score += 1;
 }
 else {
-    //animate the mate
-    //respawn - next level
+    //player can win a part
+    RandomlyPickPart();
+    hero.potential_part = part;
+    hero.potential_part_type = partType;
+    show_debug_message("Part won: " + string(hero.potential_part));
 }
 self.sprite_index = spr_bush;

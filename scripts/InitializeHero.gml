@@ -12,10 +12,13 @@ enum Parts {
     faces,
     feet,
     horns,
-    tails
+    tails,
+    last
 }
 
 self.left_or_right = 1;
+self.potential_part = "";
+self.potential_part_type = 0;
 
 var back = instance_create(x, y, obj_back);
 //back.sprite_index = brown_dorsal_fin;

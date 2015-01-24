@@ -47,6 +47,7 @@
     <script>scripts\CenterCameraOnHero.gml</script>
     <script>scripts\DetectCollisionWithWall.gml</script>
     <script>scripts\UpdateHeroParts.gml</script>
+    <script>scripts\RandomlyPickPart.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_hero</object>
