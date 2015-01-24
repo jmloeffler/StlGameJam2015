@@ -9,7 +9,6 @@
     <sprite>sprites\spr_hero</sprite>
     <sprite>sprites\spr_food</sprite>
     <sprite>sprites\spr_wall</sprite>
-    <sprite>sprites\spr_dancing</sprite>
     <sprite>sprites\spr_bush</sprite>
     <sprite>sprites\spr_left_edge</sprite>
     <sprite>sprites\spr_ll_corner</sprite>
@@ -27,8 +26,19 @@
     <sprites name="backs">
       <sprite>sprites\brown_back_plates</sprite>
       <sprite>sprites\brown_dorsal_fin</sprite>
+      <sprite>sprites\brown_dorsal_fin_dance</sprite>
+      <sprite>sprites\brown_insect_wings_1</sprite>
     </sprites>
     <sprite>sprites\hero_collision</sprite>
+    <sprite>sprites\sprite23</sprite>
+    <sprites name="feet">
+      <sprite>sprites\brown_blob_feet</sprite>
+      <sprite>sprites\brown_blob_feet_walk</sprite>
+    </sprites>
+    <sprites name="bodies">
+      <sprite>sprites\brown_body_dancing</sprite>
+      <sprite>sprites\brown_body</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
