@@ -4,10 +4,10 @@ var moveSpeed = 3;
 var xDir = 0, yDir = 0;
 
 if keyboard_check(vk_up) {
-    var topWall = DetectCollision(0, -moveSpeed, obj_wall)
+    var wall = DetectCollisionWithWall(0, -moveSpeed)
     var topBush = DetectCollision(0, -moveSpeed, obj_bush)
     
-    if topWall == noone and topBush == noone {
+    if wall == noone and topBush == noone {
         yDir -= moveSpeed;
     }
     
@@ -15,10 +15,10 @@ if keyboard_check(vk_up) {
 }
 
 if keyboard_check(vk_down) {
-    var bottomWall = DetectCollision(0, moveSpeed, obj_wall)
+    var wall = DetectCollisionWithWall(0, moveSpeed)
     var bottomBush = DetectCollision(0, moveSpeed, obj_bush)
 
-    if bottomWall == noone and bottomBush == noone {
+    if wall == noone and bottomBush == noone {
         yDir += moveSpeed;
     }
     
@@ -26,10 +26,10 @@ if keyboard_check(vk_down) {
 }
 
 if keyboard_check(vk_right) {
-    var rightWall = DetectCollision(moveSpeed, 0, obj_wall)
+    var wall = DetectCollisionWithWall(moveSpeed, 0)
     var rightBush = DetectCollision(moveSpeed, 0, obj_bush)
 
-    if rightWall == noone and rightBush == noone {
+    if wall == noone and rightBush == noone {
         xDir += moveSpeed;
     }
     
@@ -37,10 +37,10 @@ if keyboard_check(vk_right) {
 }
 
 if keyboard_check(vk_left) {
-    var leftWall = DetectCollision(-moveSpeed, 0, obj_wall)
+    var wall = DetectCollisionWithWall(-moveSpeed, 0)
     var leftBush = DetectCollision(-moveSpeed, 0, obj_bush)
 
-    if leftWall == noone and leftBush == noone {
+    if wall == noone and leftBush == noone {
         xDir -= moveSpeed;
     }
     

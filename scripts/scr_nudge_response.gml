@@ -9,3 +9,4 @@ else {
     //animate the mate
     //respawn - next level
 }
+self.sprite_index = spr_bush;
