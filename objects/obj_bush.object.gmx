@@ -26,7 +26,6 @@
           <argument>
             <kind>1</kind>
             <string>self.nudge_state = nudge_states.idle;
-show_debug_message(self.nudge_state)
 </string>
           </argument>
         </arguments>
