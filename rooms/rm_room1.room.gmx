@@ -135,7 +135,7 @@
     <instance objName="obj_food" x="512" y="1536" name="inst_FB9D127F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_food" x="1280" y="1280" name="inst_EC874833" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_food" x="256" y="512" name="inst_DC18D645" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bush" x="256" y="256" name="inst_0D4870F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ur_corner" x="7936" y="0" name="inst_8CD3519F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bush" x="512" y="512" name="inst_A7251929" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_top_edge" x="1792" y="0" name="inst_6A68AD34" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_top_edge" x="3072" y="0" name="inst_3026D4DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -171,7 +171,6 @@
     <instance objName="obj_bottom_edge" x="6400" y="5888" name="inst_A9D40DB9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bottom_edge" x="6656" y="5888" name="inst_64BFCC8D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bottom_edge" x="6912" y="5888" name="inst_BB56FA70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ur_corner" x="7936" y="0" name="inst_8CD3519F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

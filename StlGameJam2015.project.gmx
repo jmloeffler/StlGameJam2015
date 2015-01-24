@@ -23,6 +23,11 @@
     <sprite>sprites\spr_bottom_edge</sprite>
     <sprite>sprites\spr_empty_heart</sprite>
     <sprite>sprites\spr_full_heart</sprite>
+    <sprite>sprites\sprite17</sprite>
+    <sprites name="backs">
+      <sprite>sprites\brown_back_plates</sprite>
+      <sprite>sprites\brown_dorsal_fin</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -41,6 +46,7 @@
     <script>scripts\CollideWithBush.gml</script>
     <script>scripts\CenterCameraOnHero.gml</script>
     <script>scripts\DetectCollisionWithWall.gml</script>
+    <script>scripts\UpdateHeroParts.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_hero</object>
@@ -57,6 +63,12 @@
     <object>objects\obj_ul_corner</object>
     <object>objects\obj_bottom_edge</object>
     <object>objects\obj_ur_corner</object>
+    <object>objects\obj_back</object>
+    <object>objects\obj_ear</object>
+    <object>objects\obj_face</object>
+    <object>objects\obj_feet</object>
+    <object>objects\obj_horns</object>
+    <object>objects\obj_tails</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_room1</room>
