@@ -16,13 +16,16 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_call_mate.gml</script>
-    <script>scripts\scr_on_create_hero.gml</script>
+    <script>scripts\InitializeHero.gml</script>
     <script>scripts\scr_on_dancing_done.gml</script>
     <script>scripts\scr_cull_bushes.gml</script>
     <script>scripts\scr_spawn_food.gml</script>
-    <script>scripts\scr_move.gml</script>
+    <script>scripts\MoveHero.gml</script>
     <script>scripts\scr_nudge_bush.gml</script>
     <script>scripts\scr_nudge_response.gml</script>
+    <script>scripts\DetectCollision.gml</script>
+    <script>scripts\CollideWithBush.gml</script>
+    <script>scripts\CenterCameraOnHero.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_hero</object>
