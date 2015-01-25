@@ -11,6 +11,8 @@ else {
     RandomlyPickPart();
     hero.potential_part = part;
     hero.potential_part_type = partType;
-    show_debug_message("Part won: " + sprite_get_name(part));
+    
+    show_debug_message("Part won: " + sprite_get_name(global.possibleIdles[partType, part]));
 }
 self.sprite_index = spr_bush;
+alarm[1] = -1;

@@ -44,8 +44,7 @@ global.possibleDances[Parts.Backs, Backs.BrownNormalWings] = brown_normal_wings_
 
 enum Bodies {
     BrownBody,
-    last,
-    Ears
+    last
 }
 
 global.possibleIdles[Parts.Bodies, Bodies.BrownBody] = brown_body
@@ -133,9 +132,6 @@ global.possibleIdles[Parts.Ears, Ears.LowBrownRoundedEars] = low_brown_rounded_e
 global.possibleWalks[Parts.Ears, Ears.LowBrownRoundedEars] = low_brown_rounded_ears
 global.possibleDances[Parts.Ears, Ears.LowBrownRoundedEars] = low_brown_rounded_ears
 
-
-self.potential_part = "";
-self.potential_part_type = 0;
 
 global.currentPart[Parts.Backs] = Backs.BrownBackPlates
 global.currentPart[Parts.Bodies] = Bodies.BrownBody

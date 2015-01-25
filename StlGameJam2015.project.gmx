@@ -96,7 +96,6 @@
     <script>scripts\scr_nudge_bush.gml</script>
     <script>scripts\scr_nudge_response.gml</script>
     <script>scripts\DetectCollision.gml</script>
-    <script>scripts\CollideWithBush.gml</script>
     <script>scripts\CenterCameraOnHero.gml</script>
     <script>scripts\DetectCollisionWithWall.gml</script>
     <script>scripts\UpdateHeroParts.gml</script>
@@ -109,9 +108,6 @@
   <objects name="objects">
     <object>objects\obj_hero</object>
     <object>objects\obj_food</object>
-    <object>objects\obj_mate</object>
-    <object>objects\obj_wall</object>
-    <object>objects\obj_bush</object>
     <object>objects\obj_ll_corner</object>
     <object>objects\obj_left_edge</object>
     <object>objects\obj_bush_with_fruit</object>

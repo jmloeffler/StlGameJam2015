@@ -87,7 +87,6 @@
     <instance objName="obj_top_edge" x="2560" y="0" name="inst_4D2AD186" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_top_edge" x="2816" y="0" name="inst_281AAD1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bush_with_fruit" x="658" y="646" name="inst_214099B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bush" x="313" y="623" name="inst_47E88FD8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_top_edge" x="3584" y="0" name="inst_114CE855" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_top_edge" x="3840" y="0" name="inst_D33E6602" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_top_edge" x="4096" y="0" name="inst_2C851E1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -136,7 +135,6 @@
     <instance objName="obj_food" x="1280" y="1280" name="inst_EC874833" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_food" x="512" y="256" name="inst_DC18D645" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ur_corner" x="7936" y="0" name="inst_8CD3519F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bush" x="512" y="512" name="inst_A7251929" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_top_edge" x="1792" y="0" name="inst_6A68AD34" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_top_edge" x="3072" y="0" name="inst_3026D4DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ul_corner" x="0" y="0" name="inst_035023A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

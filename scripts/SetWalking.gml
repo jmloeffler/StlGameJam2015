@@ -5,4 +5,3 @@ for (var i = 0; i < Parts.last; i++) {
 }
 self.currentState = HeroStates.Walking
 speed = 0
-alarm[0] = 20

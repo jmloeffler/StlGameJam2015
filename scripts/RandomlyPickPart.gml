@@ -1,28 +1,28 @@
 ///RandomlyPickPart
 
-partType = irandom(Parts.Tails);
+partType = irandom(Parts.last-1);
 part = noone;
 //show_debug_message("part slot: " + string(partType));
 if(partType == Parts.Backs) {
-    part = choose(brown_back_plates, brown_dorsal_fin, brown_insect_wings, brown_normal_wings);
+    part = irandom(Backs.last-1);
 }
 if(partType == Parts.Bodies) {
-    part = choose(brown_body, fire_body, leopard_body, polkadot_body, purple_body, stormy_body, stripey_body);
+    part = irandom(Bodies.last-1);
 }
 if(partType == Parts.Ears) {
-    part = choose(low_brown_floppy_ears, low_brown_fluffy_ears, low_brown_pointy_ears, low_brown_rounded_ears);
+    part = irandom(Ears.last-1);
 }
 if(partType == Parts.Faces) {
-    part = choose(brown_mammal_face, brown_reptile_face, fire_reptile_face);
+    part = irandom(Faces.last-1);
 }
 if(partType == Parts.Feet) {
-    part = choose(brown_blob_feet, brown_fins, brown_six_legs);
+    part = irandom(Feet.last-1);
 }
 if(partType == Parts.Horns) {
-    part = choose(low_brown_antennae);
+    part = irandom(Horns.last-1);
 }
 if(partType == Parts.Tails) {
-    part = choose(brown_insect_tail, brown_fluffy_tail, long_brown_fluffy_tail);
+    part = irandom(Tails.last-1);
 }
 
 return part;
