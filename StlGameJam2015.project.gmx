@@ -27,17 +27,57 @@
       <sprite>sprites\brown_back_plates</sprite>
       <sprite>sprites\brown_dorsal_fin</sprite>
       <sprite>sprites\brown_dorsal_fin_dance</sprite>
-      <sprite>sprites\brown_insect_wings_1</sprite>
+      <sprite>sprites\brown_insect_wings</sprite>
+      <sprite>sprites\brown_insect_wings_dance</sprite>
+      <sprite>sprites\brown_normal_wings</sprite>
+      <sprite>sprites\brown_normal_wings_dance</sprite>
+      <sprite>sprites\brown_back_plates_dance</sprite>
     </sprites>
     <sprite>sprites\hero_collision</sprite>
     <sprite>sprites\sprite23</sprite>
     <sprites name="feet">
       <sprite>sprites\brown_blob_feet</sprite>
       <sprite>sprites\brown_blob_feet_walk</sprite>
+      <sprite>sprites\brown_blob_feet_dance</sprite>
+      <sprite>sprites\brown_fins</sprite>
+      <sprite>sprites\brown_fins_walk</sprite>
+      <sprite>sprites\brown_fins_dance</sprite>
+      <sprite>sprites\brown_six_legs</sprite>
+      <sprite>sprites\brown_six_legs_walk</sprite>
+      <sprite>sprites\brown_six_legs_dance</sprite>
     </sprites>
     <sprites name="bodies">
       <sprite>sprites\brown_body_dancing</sprite>
       <sprite>sprites\brown_body</sprite>
+      <sprite>sprites\fire_body</sprite>
+      <sprite>sprites\leopard_body</sprite>
+      <sprite>sprites\polkadot_body</sprite>
+      <sprite>sprites\purple_body</sprite>
+      <sprite>sprites\stormy_body</sprite>
+      <sprite>sprites\stripey_body</sprite>
+    </sprites>
+    <sprites name="ears">
+      <sprite>sprites\high_brown_floppy_ears</sprite>
+      <sprite>sprites\high_brown_fluffy_ears</sprite>
+      <sprite>sprites\high_brown_pointy_ears</sprite>
+      <sprite>sprites\high_brown_round_ears</sprite>
+      <sprite>sprites\low_brown_floppy_ears</sprite>
+      <sprite>sprites\low_brown_fluffy_ears</sprite>
+      <sprite>sprites\low_brown_pointy_ears</sprite>
+      <sprite>sprites\low_brown_rounded_ears</sprite>
+    </sprites>
+    <sprites name="faces">
+      <sprite>sprites\brown_high_mammal_face</sprite>
+      <sprite>sprites\brown_high_reptile_face</sprite>
+      <sprite>sprites\brown_mammal_face</sprite>
+      <sprite>sprites\brown_reptile_face</sprite>
+      <sprite>sprites\fire_reptile_face</sprite>
+    </sprites>
+    <sprites name="tails">
+      <sprite>sprites\brown_insect_tail</sprite>
+      <sprite>sprites\brown_fluffy_tail</sprite>
+      <sprite>sprites\long_brown_fluffy_tail</sprite>
+      <sprite>sprites\long_brown_fluffy_tail_walk</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
