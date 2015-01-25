@@ -1,5 +1,8 @@
 ///InitializeHero
 
+//reseed the random generator
+randomize();
+
 enum HeroStates {
     Idle,
     Dancing,

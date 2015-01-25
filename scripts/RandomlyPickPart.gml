@@ -19,7 +19,7 @@ if(partType == Parts.feet) {
     part = choose(brown_blob_feet, brown_fins, brown_six_legs);
 }
 if(partType == Parts.horns) {
-    part = noone; //choose("brown_back_plates", "brown_dorsal_fin");
+    part = choose(low_brown_antennae);
 }
 if(partType == Parts.tails) {
     part = choose(brown_insect_tail, brown_fluffy_tail, long_brown_fluffy_tail);

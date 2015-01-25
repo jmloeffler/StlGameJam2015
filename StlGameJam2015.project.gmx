@@ -79,6 +79,9 @@
       <sprite>sprites\long_brown_fluffy_tail</sprite>
       <sprite>sprites\long_brown_fluffy_tail_walk</sprite>
     </sprites>
+    <sprites name="horns">
+      <sprite>sprites\low_brown_antennae</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
