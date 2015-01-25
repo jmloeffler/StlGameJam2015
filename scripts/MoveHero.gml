@@ -2,7 +2,7 @@
 if self.currentState == HeroStates.Idle or self.currentState == HeroStates.Walking {
     var lastState = self.currentState
     
-    var moveSpeed = 3;
+    var moveSpeed = 7;
     var xDir = 0, yDir = 0;
     
     if keyboard_check(vk_up) {
