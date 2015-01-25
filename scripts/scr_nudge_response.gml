@@ -3,8 +3,9 @@ self.nudge_state = nudge_states.idle;
 var response = random(1);
 var hero = instance_find(obj_hero,0);
 
-if(response > 0.6) {
-    hero.score += 1;
+if(response > 0.3) {
+    hero.score -= 1;
+    DetectDeath();
 }
 else {
     //player can win a part
@@ -18,3 +19,4 @@ else {
 }
 self.sprite_index = spr_bush;
 alarm[1] = -1;
+

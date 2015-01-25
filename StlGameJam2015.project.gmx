@@ -86,6 +86,7 @@
       <sprite>sprites\low_brown_antennae</sprite>
     </sprites>
     <sprite>sprites\spr_play</sprite>
+    <sprite>sprites\spr_GameOVer</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -109,6 +110,7 @@
     <script>scripts\SetIdle.gml</script>
     <script>scripts\SetDancing.gml</script>
     <script>scripts\SetWalking.gml</script>
+    <script>scripts\DetectDeath.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_hero</object>
@@ -131,10 +133,12 @@
     <object>objects\obj_body</object>
     <object>objects\object18</object>
     <object>objects\btn_Start</object>
+    <object>objects\obj_GameOver</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_title</room>
     <room>rooms\rm_room1</room>
+    <room>rooms\rm_GameOver</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

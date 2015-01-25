@@ -3,6 +3,8 @@
 //reseed the random generator
 randomize();
 
+self.score = 1;
+
 enum HeroStates {
     Idle,
     Dancing,
