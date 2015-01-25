@@ -17,8 +17,8 @@ enum Parts {
     last
 }
 
-self.potential_part = "";
-self.potential_part_type = 0;
+self.potential_part = noone;
+self.potential_part_type = -1;
 
 global.partObjects[Parts.backs] = obj_back
 global.partObjects[Parts.bodies] = obj_back
