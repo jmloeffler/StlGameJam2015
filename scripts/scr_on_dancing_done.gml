@@ -1,5 +1,4 @@
-self.currentState = HeroStates.Idle
-self.parts[Parts.bodies].sprite_index = brown_body
+SetIdle();
 // room_restart()
 
 //don't acquire the new part if one wasn't possible
