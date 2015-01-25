@@ -1,4 +1,4 @@
-SetIdle();
+
 // room_restart()
 show_debug_message("finished dancing");
 
@@ -9,3 +9,5 @@ if(self.potential_part_type >= 0 && self.potential_part_type < Parts.last) {
 }
 
 alarm[0] = -1;
+
+SetIdle();

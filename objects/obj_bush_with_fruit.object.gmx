@@ -26,6 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>self.nudge_state = nudge_states.idle;
+self.potential_part = noone;
+self.potential_part_type = -1;
 </string>
           </argument>
         </arguments>
@@ -111,6 +113,35 @@
           <argument>
             <kind>0</kind>
             <string></string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_self();
+
+if(self.potential_part_type &gt; -1) {
+  var sprite = global.possibleDances[self.potential_part_type, self.potential_part];
+  draw_sprite(sprite, -1, x, y);
+  
+}
+</string>
           </argument>
         </arguments>
       </action>

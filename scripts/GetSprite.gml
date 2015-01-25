@@ -1,4 +1,4 @@
-///GetSprite
+///GetSprite(part, state)
 var part = argument0
 var state = argument1
 

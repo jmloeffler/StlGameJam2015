@@ -1,11 +1,9 @@
-sound effects  1 audio_play_sound(snd_*, 10, false);
+sound effects  1
 music
 
 text narration 1
 
 level design  .5
-
-title screen 1
 
 demo video .5
 
