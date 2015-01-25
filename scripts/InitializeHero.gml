@@ -135,6 +135,15 @@ global.possibleIdles[Parts.Ears, Ears.LowBrownRoundedEars] = low_brown_rounded_e
 global.possibleWalks[Parts.Ears, Ears.LowBrownRoundedEars] = low_brown_rounded_ears
 global.possibleDances[Parts.Ears, Ears.LowBrownRoundedEars] = low_brown_rounded_ears
 
+//superhero mode
+//global.currentPart[Parts.Backs] = Backs.BrownNormalWings
+//global.currentPart[Parts.Bodies] = Bodies.BrownBody
+//global.currentPart[Parts.Ears] = Ears.LowBrownPointyEars
+//global.currentPart[Parts.Faces] = Faces.FireReptileFace
+//global.currentPart[Parts.Feet] = Feet.BrownFins
+//global.currentPart[Parts.Tails] = Tails.BrownInsectTail
+//global.currentPart[Parts.Horns] = noone
+
 
 global.currentPart[Parts.Backs] = noone
 global.currentPart[Parts.Bodies] = Bodies.BrownBody

@@ -1,4 +1,5 @@
 if self.currentState == HeroStates.Idle {
     SetDancing();
-    audio_play_sound(snd_mating, 10, false);
+    //sound_play(snd_mating);
+    //sound_fade(snd_Game,0,1);
 }

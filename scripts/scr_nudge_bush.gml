@@ -12,7 +12,7 @@ if(self.nudge_state == nudge_states.idle) {
     var response = random(1);
     var hero = instance_find(obj_hero,0);
     
-    if(response > 0.3) {
+    if(response < 0.3) {
         hero.score -= 1;
         self.chomping = true;
         //DetectDeath();
