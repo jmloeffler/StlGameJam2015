@@ -138,7 +138,7 @@ global.currentPart[Parts.Backs] = noone
 global.currentPart[Parts.Bodies] = Bodies.BrownBody
 global.currentPart[Parts.Ears] = noone
 global.currentPart[Parts.Faces] = noone
-global.currentPart[Parts.Feet] = noone
+global.currentPart[Parts.Feet] = Feet.BrownBlobFeet
 global.currentPart[Parts.Tails] = noone
 global.currentPart[Parts.Horns] = noone
 

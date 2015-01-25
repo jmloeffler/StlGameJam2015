@@ -1,0 +1,14 @@
+sound effects  1 audio_play_sound(snd_*, 10, false);
+music
+
+text narration 1
+
+level design  .5
+
+title screen 1
+
+demo video .5
+
+import all other sprites 1
+
+3pm upload our source

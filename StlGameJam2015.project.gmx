@@ -4,7 +4,10 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_mating</sound>
+    <sound>sound\snd_groove</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_hero</sprite>
     <sprite>sprites\spr_food</sprite>
@@ -82,16 +85,18 @@
     <sprites name="horns">
       <sprite>sprites\low_brown_antennae</sprite>
     </sprites>
+    <sprite>sprites\spr_play</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
+    <background>background\title</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_call_mate.gml</script>
     <script>scripts\InitializeHero.gml</script>
-    <script>scripts\scr_on_dancing_done.gml</script>
     <script>scripts\scr_spawn_food.gml</script>
+    <script>scripts\scr_on_dancing_done.gml</script>
     <script>scripts\MoveHero.gml</script>
     <script>scripts\scr_nudge_bush.gml</script>
     <script>scripts\scr_nudge_response.gml</script>
@@ -124,8 +129,11 @@
     <object>objects\obj_horns</object>
     <object>objects\obj_tails</object>
     <object>objects\obj_body</object>
+    <object>objects\object18</object>
+    <object>objects\btn_Start</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_title</room>
     <room>rooms\rm_room1</room>
   </rooms>
   <help>

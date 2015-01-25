@@ -12,6 +12,8 @@ else {
     hero.potential_part = part;
     hero.potential_part_type = partType;
     
+    var partDescription = sprite_get_name(global.possibleIdles[partType, part]);
+    //show_message("You've found a mate carrying " + partDescription + "! Dance <spacebar> to procreate!");
     show_debug_message("Part won: " + sprite_get_name(global.possibleIdles[partType, part]));
 }
 self.sprite_index = spr_bush;
