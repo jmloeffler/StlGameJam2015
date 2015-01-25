@@ -24,6 +24,8 @@ enum Backs {
     last
 }
 
+self.potential_part = noone;
+self.potential_part_type = -1;
 global.possibleIdles[Parts.Backs, Backs.BrownBackPlates] = brown_back_plates
 global.possibleWalks[Parts.Backs, Backs.BrownBackPlates] = brown_back_plates
 global.possibleDances[Parts.Backs, Backs.BrownBackPlates] = brown_back_plates_dance

@@ -11,6 +11,6 @@ else {
     RandomlyPickPart();
     hero.potential_part = part;
     hero.potential_part_type = partType;
-    show_debug_message("Part won: " + string(hero.potential_part));
+    //show_debug_message("Part won: " + string(hero.potential_part));
 }
 self.sprite_index = spr_bush;

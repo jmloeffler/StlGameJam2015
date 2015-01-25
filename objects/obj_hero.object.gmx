@@ -300,9 +300,37 @@
           <argument>
             <kind>1</kind>
             <string>draw_sprite_part(spr_empty_heart, 0, 0, 0, 128, 128-(128*(score*0.25)), 0, 0);
-draw_text(50, 40, self.potential_part_type);
-draw_text(50, 50, self.potential_part);
+//draw_text(50, 40, self.potential_part_type);
+//draw_text(50, 50, self.potential_part);
 </string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>703</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_draw_score</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>1</kind>
+            <string>Mojo: </string>
           </argument>
         </arguments>
       </action>
