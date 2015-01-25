@@ -29,6 +29,7 @@ enum Backs {
 
 self.potential_part = noone;
 self.potential_part_type = -1;
+
 global.possibleIdles[Parts.Backs, Backs.BrownBackPlates] = brown_back_plates
 global.possibleWalks[Parts.Backs, Backs.BrownBackPlates] = brown_back_plates
 global.possibleDances[Parts.Backs, Backs.BrownBackPlates] = brown_back_plates_dance
@@ -133,12 +134,12 @@ global.possibleWalks[Parts.Ears, Ears.LowBrownRoundedEars] = low_brown_rounded_e
 global.possibleDances[Parts.Ears, Ears.LowBrownRoundedEars] = low_brown_rounded_ears
 
 
-global.currentPart[Parts.Backs] = Backs.BrownBackPlates
+global.currentPart[Parts.Backs] = noone
 global.currentPart[Parts.Bodies] = Bodies.BrownBody
-global.currentPart[Parts.Ears] = Ears.LowBrownRoundedEars
-global.currentPart[Parts.Faces] = Faces.BrownMammalFace
-global.currentPart[Parts.Feet] = Feet.BrownSixLegs
-global.currentPart[Parts.Tails] = Tails.LongBrownFluffyTail
+global.currentPart[Parts.Ears] = noone
+global.currentPart[Parts.Faces] = noone
+global.currentPart[Parts.Feet] = noone
+global.currentPart[Parts.Tails] = noone
 global.currentPart[Parts.Horns] = noone
 
 global.partObjects[Parts.Backs] = obj_back

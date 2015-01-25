@@ -2,9 +2,9 @@
 var part = argument0
 var state = argument1
 
-//show_debug_message(part);
-//show_debug_message(state);
-
+if global.currentPart[part] == noone then
+    return noone
+    
 if state == HeroStates.Idle then
     return global.possibleIdles[part, global.currentPart[part]]
 
