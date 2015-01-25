@@ -1,3 +1,3 @@
-self.Dancing = DancerState.Idle
-self.sprite_index = spr_hero
-room_restart()
+self.currentState = HeroStates.Idle
+self.parts[Parts.bodies].sprite_index = brown_body
+// room_restart()

@@ -1,60 +1,73 @@
 ///MoveHero
-
-var moveSpeed = 3;
-var xDir = 0, yDir = 0;
-
-if keyboard_check(vk_up) {
-    var wall = DetectCollisionWithWall(0, -moveSpeed)
-    var topBush = DetectCollision(0, -moveSpeed, obj_bush)
+if self.currentState == HeroStates.Idle or self.currentState == HeroStates.Walking {
+    var lastState = self.currentState
     
-    if wall == noone and topBush == noone {
-        yDir -= moveSpeed;
+    var moveSpeed = 3;
+    var xDir = 0, yDir = 0;
+    
+    if keyboard_check(vk_up) {
+        var wall = DetectCollisionWithWall(0, -moveSpeed)
+        var topBush = DetectCollision(0, -moveSpeed, obj_bush)
+        
+        if wall == noone and topBush == noone {
+            yDir -= moveSpeed;
+        }
+        
+        CollideWithBush(topBush)
     }
     
-    CollideWithBush(topBush)
-}
-
-if keyboard_check(vk_down) {
-    var wall = DetectCollisionWithWall(0, moveSpeed)
-    var bottomBush = DetectCollision(0, moveSpeed, obj_bush)
-
-    if wall == noone and bottomBush == noone {
-        yDir += moveSpeed;
+    if keyboard_check(vk_down) {
+        var wall = DetectCollisionWithWall(0, moveSpeed)
+        var bottomBush = DetectCollision(0, moveSpeed, obj_bush)
+    
+        if wall == noone and bottomBush == noone {
+            yDir += moveSpeed;
+        }
+        
+        CollideWithBush(bottomBush)
     }
     
-    CollideWithBush(bottomBush)
-}
-
-if keyboard_check(vk_right) {
-    var wall = DetectCollisionWithWall(moveSpeed, 0)
-    var rightBush = DetectCollision(moveSpeed, 0, obj_bush)
-
-    if wall == noone and rightBush == noone {
-        xDir += moveSpeed;
+    if keyboard_check(vk_right) {
+        var wall = DetectCollisionWithWall(moveSpeed, 0)
+        var rightBush = DetectCollision(moveSpeed, 0, obj_bush)
+    
+        if wall == noone and rightBush == noone {
+            xDir += moveSpeed;
+        }
+        
+        CollideWithBush(rightBush)
     }
     
-    CollideWithBush(rightBush)
-}
-
-if keyboard_check(vk_left) {
-    var wall = DetectCollisionWithWall(-moveSpeed, 0)
-    var leftBush = DetectCollision(-moveSpeed, 0, obj_bush)
-
-    if wall == noone and leftBush == noone {
-        xDir -= moveSpeed;
+    if keyboard_check(vk_left) {
+        var wall = DetectCollisionWithWall(-moveSpeed, 0)
+        var leftBush = DetectCollision(-moveSpeed, 0, obj_bush)
+    
+        if wall == noone and leftBush == noone {
+            xDir -= moveSpeed;
+        }
+        
+        CollideWithBush(leftBush)
     }
     
-    CollideWithBush(leftBush)
+    var myDirection = point_direction(0, 0, xDir, yDir);
+    
+    var mySpeed = 0;
+    if xDir == 0 && yDir == 0 {
+        mySpeed = 0;
+    } else {
+        mySpeed = moveSpeed;
+    }
+    
+    direction = myDirection;
+    speed = mySpeed;
+    
+    if speed > 0 and lastState == HeroStates.Idle {
+        self.parts[Parts.feet].sprite_index = brown_blob_feet_walk
+        self.parts[Parts.feet].image_speed = 0.25
+        self.currentState = HeroStates.Walking
+    } else if speed == 0 and lastState == HeroStates.Walking {
+        self.parts[Parts.feet].sprite_index = brown_blob_feet
+        self.currentState = HeroStates.Idle
+    }
+
 }
-
-var myDirection = point_direction(0, 0, xDir, yDir);
-
-var mySpeed = 0;
-if xDir == 0 && yDir == 0 {
-    mySpeed = 0;
-} else {
-    mySpeed = moveSpeed;
-}
-
-direction = myDirection;
-speed = mySpeed;

@@ -1,8 +1,9 @@
 ///InitializeHero
 
-enum DancerState {
+enum HeroStates {
     Idle,
-    Dancing
+    Dancing,
+    Walking
 }
 
 enum Parts {
@@ -27,11 +28,11 @@ global.partObjects[Parts.feet] = obj_feet
 global.partObjects[Parts.horns] = obj_horns
 global.partObjects[Parts.tails] = obj_tails
 
-global.parts[Parts.backs] = brown_back_plates
-global.parts[Parts.bodies] = spr_hero
+global.parts[Parts.backs] = noone
+global.parts[Parts.bodies] = brown_body
 global.parts[Parts.ears] = noone
 global.parts[Parts.faces] = noone
-global.parts[Parts.feet] = noone
+global.parts[Parts.feet] = brown_blob_feet
 global.parts[Parts.horns] = noone
 global.parts[Parts.tails] = noone
 
@@ -44,4 +45,4 @@ for (var i = 0; i < Parts.last; i++) {
     self.parts[i] = part
 }
 
-self.Dancing = DancerState.Idle;
+self.currentState = HeroStates.Idle;
