@@ -98,6 +98,10 @@
     <script>scripts\DetectCollisionWithWall.gml</script>
     <script>scripts\UpdateHeroParts.gml</script>
     <script>scripts\RandomlyPickPart.gml</script>
+    <script>scripts\GetSprite.gml</script>
+    <script>scripts\SetIdle.gml</script>
+    <script>scripts\SetDancing.gml</script>
+    <script>scripts\SetWalking.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_hero</object>
@@ -120,6 +124,7 @@
     <object>objects\obj_feet</object>
     <object>objects\obj_horns</object>
     <object>objects\obj_tails</object>
+    <object>objects\obj_body</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_room1</room>

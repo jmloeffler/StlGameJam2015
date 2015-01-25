@@ -62,12 +62,9 @@ if self.currentState == HeroStates.Idle or self.currentState == HeroStates.Walki
     speed = mySpeed;
     
     if speed > 0 and lastState == HeroStates.Idle {
-        self.parts[Parts.feet].sprite_index = brown_blob_feet_walk
-        self.parts[Parts.feet].image_speed = 0.25
-        self.currentState = HeroStates.Walking
+        SetWalking();
     } else if speed == 0 and lastState == HeroStates.Walking {
-        self.parts[Parts.feet].sprite_index = brown_blob_feet
-        self.currentState = HeroStates.Idle
+        SetIdle();
     }
 
 }
