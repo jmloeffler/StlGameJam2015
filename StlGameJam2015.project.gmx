@@ -88,6 +88,7 @@
     </sprites>
     <sprite>sprites\spr_play</sprite>
     <sprite>sprites\spr_GameOVer</sprite>
+    <sprite>sprites\spr_chomp</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>

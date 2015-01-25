@@ -14,7 +14,9 @@ if(self.nudge_state == nudge_states.idle) {
     
     if(response > 0.3) {
         hero.score -= 1;
-        DetectDeath();
+        self.chomping = true;
+        //DetectDeath();
+        alarm[2] = 40;
     }
     else {
         //player can win a part
